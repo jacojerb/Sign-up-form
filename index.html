@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HopeSite Signup</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="main">
+    <div class="leftSide">
+        <div class="logoArea">
+            <div class="logo"><img src="Sun.svg" alt="Sun logo">HopeSite</div>
+        </div>
+        <p class="photoCredit">Photo by <a href="https://unsplash.com/@sickhews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wes Hicks</a> on <a href="https://unsplash.com/s/photos/hope?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
+    </div> 
+    <div class="rightSide">
+        <div class="signupMessage">
+            <p>You're finally here. You've had a fine life so far, but that's all about to change! Sign up today and get ready to be the best you!</p>
+            <p>It's time.</p>
+            <p class="disclaimer">(Disclaimer: no actual change in personality guaranteed. This is a fictional service and likely won't sign you up for anything)</p>
+        </div>
+        <div class="signupForm">
+            <form action="bla.html" method="get" id="form1">
+                <h2>Do the things. You know you want to.</h2>
+                <div class="formInputs">
+                    <div class="formInputsLeft">
+                        <label for="firstName">First Name</label>
+                        <input required placeholder="Bob" type="text" id="firstName">
+                        <label for="email">Email address</label>
+                        <input required placeholder="bob@bob.com" type="email" id="email">
+                        <span></span>
+                        <label for="password">Password</label>
+                        <input required placeholder="Bob"type="password" id="password">
+                    </div>
+                    <div class="formInputsRight">
+                        <label for="lastName">Last name</label>
+                        <input required placeholder="Bobson" type="text" id="lastName">
+                        <label for="phoneNumber">Phone number</label>
+                        <input required placeholder="0123456789" type="tel" id="phoneNumber" pattern="^[0-9+]*$">
+                        <span></span>
+                        <label for="passwordConfirm">Confirm password</label>
+                        <input required placeholder="Bob"type="password" id="passwordConfirm">
+                        <span></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="signupSubmit">
+            <button type="submit" form="form1">Create Account</button>
+            <p class="signIn">Already have an account? <a>Sign in.</a></p>
+        </div>
+    </div> </div>
+</body>
+</html>
