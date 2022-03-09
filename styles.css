@@ -76,7 +76,7 @@ html, body {
 }
 
 .signupForm {
-    height: 30%;
+    height: 35%;
     background-color: #fffef0;
     display: flex;
     flex-direction: row;
@@ -157,7 +157,7 @@ input#passwordConfirm:invalid:not(:placeholder-shown) + span::before {
 }
 
 .signupSubmit {
-    height: 35%;
+    height: 30%;
     background-color: #fffccc
 }
 
